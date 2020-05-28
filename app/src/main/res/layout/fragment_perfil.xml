@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="?attr/colorControlNormal"
     android:orientation="vertical"
     android:padding="12dp"
     tools:context=".perfil">
@@ -16,7 +17,10 @@
         android:ems="10"
         android:gravity="start|top"
         android:hint="Nombre"
-        android:inputType="textMultiLine" />
+        android:inputType="textMultiLine"
+        android:shadowColor="#B50000"
+        android:textColor="#FFFFFF"
+        android:translationY="100dp" />
 
     <EditText
         android:id="@+id/et_apellido"
@@ -25,7 +29,10 @@
         android:ems="10"
         android:gravity="start|top"
         android:hint="Apellido"
-        android:inputType="textMultiLine" />
+        android:inputType="textMultiLine"
+        android:shadowColor="#B50000"
+        android:textColor="#FFFFFF"
+        android:translationY="110dp" />
 
     <EditText
         android:id="@+id/et_dir"
@@ -34,20 +41,29 @@
         android:ems="10"
         android:gravity="start|top"
         android:hint="Direccion"
-        android:inputType="textMultiLine" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Mis datos"
-        android:textSize="30sp"
-        android:translationX="130dp"
-        android:translationY="30dp" />
+        android:inputType="textMultiLine"
+        android:shadowColor="#B50000"
+        android:textColor="#FFFFFF"
+        android:translationY="130dp" />
 
     <ListView
         android:id="@+id/lv_datos"
         android:layout_width="wrap_content"
         android:layout_height="320dp"
-        android:translationY="50dp" />
+        android:translationY="200dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="103dp"
+        android:layout_height="46dp"
+        android:layout_margin="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Datos"
+        android:textSize="30sp"
+        android:translationX="150dp"
+        android:translationY="-400dp" />
+
 </LinearLayout>
