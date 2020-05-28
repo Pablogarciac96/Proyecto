@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "634918804665",
+    "firebase_url": "https://lobosapp-f53ee.firebaseio.com",
+    "project_id": "lobosapp-f53ee",
+    "storage_bucket": "lobosapp-f53ee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:634918804665:android:aed6ccca452746b6d30f68",
+        "android_client_info": {
+          "package_name": "com.garcua.lobosapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "634918804665-buqb0ldofac1ukj7tjgcoce6dm41hc99.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.garcua.lobosapp",
+            "certificate_hash": "ecc396392d66f128b23c9ec01d174346d4239c33"
+          }
+        },
+        {
+          "client_id": "634918804665-875bfln08o0e2mndjhsiu2juvj2lrv6c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMtTJuM1ku2-_sHwAYa_J9Yhui-WdypSo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "634918804665-875bfln08o0e2mndjhsiu2juvj2lrv6c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
